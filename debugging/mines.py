@@ -86,5 +86,5 @@ class Minesweeper:
 				print("Invalid input. Please enter numbers only.")
 
 if __name__ == "__main__":
-	game = Minesweeper()
-	game.play()
+    game = Minesweeper()
+    game.play()
