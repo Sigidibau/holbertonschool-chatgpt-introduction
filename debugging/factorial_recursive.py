@@ -2,6 +2,19 @@
 #!/usr/bin/python3
 import sys
 
+ """
+    Compute the factorial of a non-negative integer n.
+
+    Parameters:
+    n (int): A non-negative integer whose factorial is to be computed.
+
+    Returns:
+    int: The factorial of the given integer n.
+
+    Raises:
+    ValueError: If n is negative, as factorial is not defined for negative numbers.
+    """
+
 def factorial(n):
     """Calculate the factorial of a non-negative integer n."""
     if n == 0:
